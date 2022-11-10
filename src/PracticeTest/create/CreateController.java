@@ -1,7 +1,7 @@
-package baithi.create;
+package PracticeTest.create;
 
-import baithi.Main;
-import baithi.Student;
+import PracticeTest.Main;
+import PracticeTest.Student;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -23,7 +23,7 @@ public class CreateController {
         try{
             error.setVisible(false);
             if(txtId.getText().isEmpty()||txtName.getText().isEmpty()||txtAddress.getText().isEmpty()||txtPhone.getText().isEmpty()){
-                throw new Exception("Vui lòng nhập đầy đủ thông tin sinh viên");
+                throw new Exception("Please enter full student information");
             }
             Student st = new Student(txtId.getText(),txtName.getText(),txtAddress.getText(),txtPhone.getText());
             listStudent.add(st);
@@ -37,7 +37,6 @@ public class CreateController {
     public void goToHome(ActionEvent actionEvent) throws Exception {
         Parent home = FXMLLoader.load(getClass().getResource("../home.fxml"));
         Main.bStage.setScene(new Scene(home,Main.width,Main.height));
-
     }
 
     public void goToList(ActionEvent actionEvent) throws Exception {

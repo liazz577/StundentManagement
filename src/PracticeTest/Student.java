@@ -1,4 +1,4 @@
-package baithi;
+package PracticeTest;
 
 public class Student {
     public String studentID;

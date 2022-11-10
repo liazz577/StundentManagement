@@ -1,4 +1,4 @@
-package baithi;
+package PracticeTest;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

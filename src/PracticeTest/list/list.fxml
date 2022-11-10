@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<Pane fx:controller="baithi.list.ListController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:controller="PracticeTest.list.ListController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TableView fx:id="tdList" layoutX="45.0" layoutY="100.0" prefHeight="200.0" prefWidth="517.0">
         <columns>

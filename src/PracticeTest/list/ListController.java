@@ -1,8 +1,8 @@
-package baithi.list;
+package PracticeTest.list;
 
-import baithi.Main;
-import baithi.Student;
-import baithi.create.CreateController;
+import PracticeTest.Main;
+import PracticeTest.Student;
+import PracticeTest.create.CreateController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
