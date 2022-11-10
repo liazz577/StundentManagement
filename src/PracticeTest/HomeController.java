@@ -15,4 +15,5 @@ public class HomeController {
         Parent list = FXMLLoader.load(getClass().getResource("list/list.fxml"));
         Main.bStage.setScene(new Scene(list,Main.width,Main.height));
     }
+
 }
